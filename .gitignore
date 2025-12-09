@@ -1,0 +1,36 @@
+# Odoo
+*.pyc
+*.pyo
+__pycache__/
+*.log
+*.pot
+*.mo
+.DS_Store
+
+# Odoo filestore
+filestore/
+sessions/
+
+# Configuration
+odoo.conf
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Database backups
+*.sql
+*.dump
+
+# Virtual environment
+venv/
+env/
+ENV/
