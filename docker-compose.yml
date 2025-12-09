@@ -10,7 +10,7 @@ services:
       - "8069:8069"
     volumes:
       # Modüllerinizi Odoo'nun extra-addons dizinine mount edin
-      - ./tutorials:/mnt/extra-addons
+      - .:/mnt/extra-addons
       # Odoo data'yı persist edin
       - odoo-web-data:/var/lib/odoo
     environment:
